@@ -193,7 +193,7 @@ def callback2(call):
 def send_task2(call):
     if call.message:
         if call.data == 'да кидай текст':
-            text = "привет как дела что делаешь сучка"
+            text = "привет как дела?"
             text = text.split()
             sms = None
 
